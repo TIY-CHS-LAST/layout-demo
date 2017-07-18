@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, footer, nav {
+  display: block;
+  width: 100%;
+  background-color: yellow;
+}
+
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+  background-color: blue;
+  padding: 20px;
+  margin: 5px;
+}
+nav li:hover {
+  background-color: red;
+}
+
+.row {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+.row:before, .row:after {
+  content: "";
+  clear: both;
+}
+.col-1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 9%;
+  background-color: blue;
+}
+.col-2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 19%;
+  background-color: green;
+}
+.col-3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.col-4 {
+  display: inline-block;
+  vertical-align: top;
+  width: 39%;
+  margin: 0;
+  padding: 0;
+  background-color: chartreuse;
+}
+.col-6 {
+  display: inline-block;
+  vertical-align: top;
+  width: 58%;
+  margin: 0;
+  padding: 0;
+}
