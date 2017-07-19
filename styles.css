@@ -1,12 +1,48 @@
+h1.className {
+  padding: 100px;
+  font-size: 5rem;
+}
+
+h1 .className {
+  padding:0;
+  font-size: .5rem;
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-header, footer, nav {
+
+footer, nav {
   display: block;
   width: 100%;
   background-color: yellow;
+}
+header {
+  display: block;
+  width: 100%;
+  background-color: black;
+}
+
+.banner {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding:  150px 0;
+  min-height: 100px;
+  background: url('http://www.sydneybackpackers.com/wp-content/uploads/2013/10/ATDW_Large_Landscape__9144487_TNSW_Australian_Surf_Awards.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.slogan {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: white; // #ffffff
 }
 
 section, aside {
@@ -21,7 +57,8 @@ nav ul {
 nav li {
   display: inline-block;
   background-color: blue;
-  padding: 20px;
+  padding-left: 100px;
+
   margin: 5px;
 }
 nav li:hover {
