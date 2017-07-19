@@ -22,7 +22,7 @@ console.log(bears, bearsWithFood, weakerBearsBcNuclearWar)
 const bearNames = bears.map(el => {
   return el.name
 })
-console.log(bearNames)
+// console.log(bearNames)
 const slugs = [
   { name: 'wormy', strength: 1000 },
   { name: 'slimy', strength: 100 },
